@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 50),
                   Material(
                     color: const Color(0xFF7707FF),
                     borderRadius: BorderRadius.circular(10),
@@ -82,8 +82,8 @@ class HomePage extends StatelessWidget {
                       },
                       child: Container(
                         padding: const EdgeInsets.symmetric(
-                          vertical: 5,
-                          horizontal: 50,
+                          vertical: 25,
+                          horizontal: 100,
                         ),
                         child: const Text(
                           "Ayo Mulai",

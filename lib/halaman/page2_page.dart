@@ -76,7 +76,7 @@ class Page2 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.only(left: 3, bottom: 15),
                   child: Text(
-                    "Hello Programmer",
+                    "Hello Programer",
                     style: TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.w600,
@@ -180,8 +180,8 @@ class Page2 extends StatelessWidget {
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     childAspectRatio:
-                        (MediaQuery.of(context).size.height - 50 - 25) /
-                            (4 * 160),
+                        (MediaQuery.of(context).size.height - 25 - 25) /
+                            (4 * 250),
                     mainAxisSpacing: 10,
                     crossAxisSpacing: 10,
                   ),
@@ -190,7 +190,7 @@ class Page2 extends StatelessWidget {
                       onTap: () {},
                       child: Container(
                         padding: const EdgeInsets.symmetric(
-                            vertical: 20, horizontal: 10),
+                            vertical: 10, horizontal: 10),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: const Color.fromARGB(255, 230, 223, 250),
