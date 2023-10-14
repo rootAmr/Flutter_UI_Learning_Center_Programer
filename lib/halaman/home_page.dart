@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_learning_programer/halaman/page2_page.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key});
+ const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -72,10 +73,13 @@ class HomePage extends StatelessWidget {
                   ),
                   const SizedBox(height: 30),
                   Material(
-                    color: Color(0xFF7707FF),
+                    color: const Color(0xFF7707FF),
                     borderRadius: BorderRadius.circular(10),
                     child: InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Page2()));
+                      },
                       child: Container(
                         padding: const EdgeInsets.symmetric(
                           vertical: 5,
