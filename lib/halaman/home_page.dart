@@ -82,12 +82,12 @@ class HomePage extends StatelessWidget {
                           horizontal: 50,
                         ),
                         child: const Text(
-                          "Ayo Mulai",
+                          "Ayo Mulai ",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
-                              letterSpacing: 1),
+                              letterSpacing: 2),
                         ),
                       ),
                     ),
