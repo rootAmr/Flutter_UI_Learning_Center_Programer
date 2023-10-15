@@ -7,11 +7,11 @@ class VideoSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.blue, // Ubah warna latar belakang sesuai preferensi Anda
-        borderRadius: BorderRadius.circular(10), // Berikan efek bulatan pada container
+        color: Colors.blue, 
+        borderRadius: BorderRadius.circular(10), 
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.5), // Tambahkan efek bayangan
+            color: Colors.grey.withOpacity(0.5), 
             spreadRadius: 2,
             blurRadius: 5,
             offset: const Offset(0, 2),
@@ -27,11 +27,11 @@ class VideoSection extends StatelessWidget {
           ),
           SizedBox(width: 8), 
           Text(
-            "Videos",
+            "Dasar Pemrograman",
             style: TextStyle(
               color: Colors.white, 
               fontSize: 18, 
-              fontWeight: FontWeight.bold, 
+              fontWeight: FontWeight.w600, 
             ),
           ),
         ],
