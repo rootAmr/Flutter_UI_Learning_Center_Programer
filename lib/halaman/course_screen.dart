@@ -60,7 +60,7 @@ class _CourseScreenState extends State<CourseScreen> {
             ),
             const SizedBox(height: 15),
             Text(
-              "${widget.imglist} Telah Selesai",
+              "${widget.imglist}",
               style: const TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.w600,
